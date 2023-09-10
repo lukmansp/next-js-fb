@@ -1,0 +1,86 @@
+{
+    "events" :[
+        {
+            "id":1,
+            "title":" event1",
+            "description":  "Desctiprion1",
+            "category":"sports",
+            "date": "april 23"
+        },
+        {
+            "id":2,
+            "title":" event2",
+            "description":  "Desctiprion1",
+            "category":"technologi",
+            "date": "april 26"
+        },
+        {
+            "id":3,
+            "title":" event3",
+            "description":  "Desctiprion1",
+            "category":"food",
+            "date": "april 23"
+        },
+        {
+            "id":4,
+            "title":" event4",
+            "description":  "Desctiprion1",
+            "category":"sports",
+            "date": "april 32"
+        }
+    ],
+    "dashboard" :
+        {
+            "posts": 3,
+            "likes":150,
+            "followers": 93,
+            "following": 334
+        }
+    ,
+    "news":[
+        {
+            "id":1,
+            "title": "News article 1",
+            "description": "Description 1 jikn",
+            "category": "sports"
+        },
+        {
+            "id":2,
+            "title": "News article 2",
+            "description": "Description 2 kntl",
+            "category": "politics"
+        },
+        {
+            "id":3,
+            "title": "News article 3",
+            "description": "Description 3",
+            "category": "documenter"
+        },
+        {
+            "id":4,
+            "title": "News article 4",
+            "description": "Description 4 ohh",
+            "category": "sports"
+        }
+    ],
+    "products":[
+        {
+            "id":1,
+            "title": "Product 1",
+            "price": 1000,
+            "description": "Description 1"
+        },
+        {
+            "id":2,
+            "title": "Product 2",
+            "price": 6000,
+            "description": "Description 2"
+        },
+        {
+            "id":3,
+            "title": "Product 3",
+            "price": 4000,
+            "description": "Description 3"
+        }
+    ]
+}
