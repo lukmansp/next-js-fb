@@ -1,3 +1,5 @@
+import styles from '../../styles/About.module.scss'
+
 export default function NewsList({news}){
     return(
         <>
@@ -6,7 +8,7 @@ export default function NewsList({news}){
             news.map((data) => {
                 return (
                     <div key={data.id}>
-                        <p>{data.title} | {data.category}</p>
+                        <p className={styles.highlightscss}>{data.title} | {data.category}</p>
                     </div>
                 )
             })
