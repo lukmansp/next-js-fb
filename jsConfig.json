@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths":{
+            "@/layout/*":["components/layout/*"]
+            // example on about.js
+        }
+    }
+}
