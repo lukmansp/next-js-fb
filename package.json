@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "serve-json": "json-server --watch db.json --port 4000",
-    "export":"next build && next export"
+    "export": "next build && next export"
   },
   "dependencies": {
     "bootstrap": "^5.3.1",
@@ -21,7 +21,10 @@
     "swr": "^2.2.2"
   },
   "devDependencies": {
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
     "eslint": "8.49.0",
-    "eslint-config-next": "13.4.19"
+    "eslint-config-next": "13.4.19",
+    "typescript": "5.2.2"
   }
 }
