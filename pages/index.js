@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getSession } from "next-auth/react";
 
 export default function Home(){
   return (
@@ -14,3 +15,10 @@ export default function Home(){
 
 }
 
+export async function getServerSideProps(ctx) {
+  return {
+    props: {
+      session: await getSession(ctx)
+    }
+  }
+}

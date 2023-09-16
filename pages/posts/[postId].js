@@ -45,7 +45,11 @@ export async function getStaticProps(contex){
     const data = await response.json()
     if (!data.id) {
         return{
-            notFound: true
+            // notFound: true,
+            redirect :{
+                destination : '/posts',
+                permanent: false
+            }
         }
     }
 console.log(data.id)

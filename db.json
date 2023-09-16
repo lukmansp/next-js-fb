@@ -82,5 +82,31 @@
             "price": 4000,
             "description": "Description 3"
         }
-    ]
+    ],
+    "explore-tix":
+        {
+            "data": [
+              {
+                "id": 815559,
+                "available": 999999,
+                "time": "2023-07-01T08:00:00",
+                "is_inactive": false
+              },
+              {
+                "id": 812784,
+                "available": 999999,
+                "time": "2023-07-01T08:30:00",
+                "is_inactive": false
+              },
+              {
+                "id": 815004,
+                "available": 999999,
+                "time": "2023-07-01T09:00:00",
+                "is_inactive": false
+              }
+            ],
+            "meta": {
+              "pagination": null
+            }
+          }
 }
